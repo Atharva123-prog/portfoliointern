@@ -46,16 +46,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Aritficial Intelligence and Machine Learning Intern",
+    icon: meta,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Data Science ",
+    icon: starbucks,
   },
 ];
 
@@ -129,11 +129,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Google developer group executive at AI ML domain",
+    company_name: "Google Developer Group",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2025 - Sep 2028",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

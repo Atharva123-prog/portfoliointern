@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -101,106 +102,83 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
+ 
 ];
 
 const experiences = [
+ 
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Google developer group executive at AI ML domain",
+    title: "Google developer group executive in AI ML domain",
     company_name: "Google Developer Group",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Nov 2025 - Sep 2028",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications along with the AI automation tools and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+   {
+  title: "Web Developer",
+  company_name: "Sprite Era Private Limited",
+  icon: git,
+  iconBg: "#383E56",
+  date: "January 2026 - April 2026",
+  points: [
+    "Developed and deployed dynamic web applications using React.js and Tailwind CSS, improving UI performance and responsiveness.",
+    "Integrated REST APIs and handled state management to ensure smooth data flow across components.",
+    "Optimized components and reduced load time by implementing lazy loading and reusable component structures.",
+    "Collaborated with designers and backend developers to deliver scalable and user-friendly features under tight deadlines.",
+  ],
+},
+{
+  title: "Data Science and Machine Learning Intern",
+  company_name: "Zaalima Development Private Limited",
+  icon: shopify,
+  iconBg: "#383E56",
+  date: "25 March 2025 - 25 May 2025",
+  points: [
+    "Worked on data preprocessing, cleaning, and feature engineering using Python libraries like Pandas and NumPy.",
+    "Built and evaluated machine learning models for prediction tasks using Scikit-learn.",
+    "Visualized insights using Matplotlib and Seaborn to support data-driven decision making.",
+    "Collaborated with the team to optimize model accuracy and presented findings with clear documentation.",
+  ],
+},
+{
+  title: "Effulgence Tech Fest Website Developer",
+  company_name: "KNIT Sultanpur",
+  icon: meta,
+  iconBg: "#E6DEDD",
+  date: "Jan 2026 - March 2026",
+  points: [
+    "Designed and developed the official Tech Fest website using React.js, ensuring a modern and engaging UI.",
+    "Implemented responsive layouts and interactive sections to enhance user experience across devices.",
+    "Managed event data, schedules, and registration flows for multiple fest activities.",
+    "Worked closely with the organizing team to deliver updates, fix bugs, and deploy features before deadlines.",
+  ],
+},
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Mind Ease",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage mental health resources and services, providing a convenient and efficient solution for well-being needs.",
     tags: [
       {
         name: "react",
@@ -216,7 +194,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Atharva123-prog",
   },
   {
     name: "Job IT",
@@ -262,4 +240,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

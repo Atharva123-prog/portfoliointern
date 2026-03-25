@@ -176,7 +176,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "Mind Ease",
+    name: "Intern Dashboard",
     description:
       "Web-based platform that allows users to search, book, and manage mental health resources and services, providing a convenient and efficient solution for well-being needs.",
     tags: [
@@ -185,7 +185,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "3js",
         color: "green-text-gradient",
       },
       {
@@ -215,7 +215,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Atharva123-prog",
   },
   {
     name: "Trip Guide",
@@ -236,7 +236,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Atharva123-prog",
   },
 ];
 

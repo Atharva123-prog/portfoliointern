@@ -185,7 +185,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "3js",
+        name: "3Js",
         color: "green-text-gradient",
       },
       {

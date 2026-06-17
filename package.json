@@ -8,6 +8,12 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "overrides": {
+    "react-tilt": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "@react-three/drei": "^9.122.0",

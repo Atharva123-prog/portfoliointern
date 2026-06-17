@@ -31,7 +31,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')", // Make sure this image exists in your assets folder!
+        "hero-pattern": "url('/herobg.png')", // Make sure this image exists in your assets folder!
       },
     },
   },

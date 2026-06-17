@@ -43,7 +43,7 @@ const TypewriterText = ({ text, delay = 0 }) => {
 const codeLines = [
   { text: 'const developer = {', color: '#c678dd' },
   { text: '  name: "Atharva Tiwari",', color: '#98c379' },
-  { text: '  role: "Full Stack Developer",', color: '#98c379' },
+  { text: '  role: "AI/ML Eng | Full Stack | Data Science",', color: '#98c379' },
   { text: '  skills: ["Python", "React", "AI/ML"],', color: '#e5c07b' },
   { text: '  passion: "Building AI Solutions",', color: '#98c379' },
   { text: '  college: "KNIT Sultanpur",', color: '#98c379' },
